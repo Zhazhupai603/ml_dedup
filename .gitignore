@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# notebooks
+.ipynb_checkpoints/
+
+# data artifacts (large, generated)
+*.parquet
+*.bam
+*.bam.bai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.cram
+*.bed
+*.bed.gz
+*.vcf
+*.vcf.gz
+
+# figures/plots (regenerated)
+*.png
+*.pdf
+*.svg
+
+# logs
+*.log
+logs/
