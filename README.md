@@ -1,8 +1,9 @@
-# ML-based UMI deduplication
+# ML-based PCR deduplication
 
-Machine-learning pipeline for read deduplication decisions on RNA-seq / scRNA-seq
-alignments, replacing heuristics with a gradient-boosted classifier trained on
-per-read features extracted from BAM files.
+Machine-learning pipeline for PCR-duplicate classification on RNA-seq / scRNA-seq
+alignments. A gradient-boosted classifier learns per-read features extracted from BAM
+files to predict PCR duplicates directly — without relying on UMI sequence. UMI-based
+deduplication (umi_tools) is used only as ground-truth label for training.
 
 ## Layout
 
